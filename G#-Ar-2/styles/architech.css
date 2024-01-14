@@ -86,3 +86,17 @@ header img {
     width: 100%;
   }
 }
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .nav,
+    .nav ul, .nav li{
+      padding: 20px;
+      flex-direction: column;
+      text-align: center;
+    }
+    header img {
+      padding: 0px;
+      width: 100%;
+    }
+  }
