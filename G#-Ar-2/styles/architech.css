@@ -14,6 +14,10 @@ header {
 }
 .nav h3 {
   color: #131313;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
 }
 .nav a {
   text-decoration: none;
@@ -25,6 +29,10 @@ header {
 
 .nav li {
   list-style: none;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
   padding: 0px 50px;
 }
 
@@ -58,10 +66,23 @@ header {
   font-weight: 700;
   margin-bottom: 40px;
 }
-.btn-primary:hover{
-    background-color: #d67200;
+.btn-primary:hover {
+  background-color: #d67200;
 }
 
-header img{
-    padding: 0px 240px 45px 240px;
+header img {
+  padding: 0px 240px 45px 240px;
+}
+
+@media screen and (max-width: 576px) {
+  .nav,
+  .nav ul, .nav li{
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  header img {
+    padding: 0px;
+    width: 100%;
+  }
 }
